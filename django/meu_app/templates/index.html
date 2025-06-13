@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+        <h1>Página Principal</h1>
+        <p>Seja bem vindo!</p>
+
+        <h2>Usuários cadastrados</h2>
+        <p>{{ usuarios }}</p>
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
